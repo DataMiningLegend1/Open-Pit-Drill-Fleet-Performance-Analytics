@@ -1,0 +1,10 @@
+2026-07-20 01:46:11,191 | INFO | Starting pipeline
+2026-07-20 01:46:11,215 | INFO | Reading C:\Users\Data Mining Legend\Desktop\Github projects\drilling\Drilling by Hole_3167_1136_086_001_2026-01-29T07_58_47.818Z.xlsx
+2026-07-20 01:46:12,390 | INFO | Loaded 749 rows; 663 valid for modelling
+2026-07-20 01:46:20,290 | INFO | Regression: DummyMedian
+2026-07-20 01:46:20,465 | INFO | Regression: Ridge
+2026-07-20 01:46:20,929 | INFO | Regression: RandomForest
+2026-07-20 01:46:21,957 | INFO | Classification: DummyPrior
+2026-07-20 01:46:22,151 | INFO | Classification: LogisticRegression
+2026-07-20 01:46:22,376 | INFO | Classification: RandomForest
+2026-07-20 01:46:24,899 | INFO | Complete: C:\Users\Data Mining Legend\Desktop\Github projects\drilling\drill_outputs_fast

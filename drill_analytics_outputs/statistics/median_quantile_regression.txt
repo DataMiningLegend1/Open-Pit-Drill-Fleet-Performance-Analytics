@@ -1,0 +1,30 @@
+                                  QuantReg Regression Results                                  
+===============================================================================================
+Dep. Variable:     np.log1p(penetration_rate_m_per_hr)   Pseudo R-squared:               0.1110
+Model:                                        QuantReg   Bandwidth:                      0.1207
+Method:                                  Least Squares   Sparsity:                       0.5374
+Date:                                 Mon, 20 Jul 2026   No. Observations:                  663
+Time:                                         02:19:45   Df Residuals:                      650
+                                                         Df Model:                           12
+============================================================================================================
+                                               coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    3.0078      0.232     12.964      0.000       2.552       3.463
+C(hole_type)[T.203mm Ore Production Sof]    -0.1852      0.059     -3.149      0.002      -0.301      -0.070
+C(hole_type)[T.Trim 3]                      -0.4371      0.273     -1.598      0.110      -0.974       0.100
+C(equipment)[T.SDR_03]                       0.0169      0.036      0.465      0.642      -0.054       0.088
+C(equipment)[T.SDR_05]                      -0.0125      0.032     -0.388      0.698      -0.076       0.051
+C(equipment)[T.SDR_06]                       0.1562      0.041      3.784      0.000       0.075       0.237
+C(equipment)[T.SDR_07]                       0.2172      0.041      5.358      0.000       0.138       0.297
+C(operator)[T.Fordson Kabangu]               0.1562      0.041      3.784      0.000       0.075       0.237
+C(operator)[T.Henry Kalituta]                0.0505      0.042      1.195      0.232      -0.032       0.134
+C(operator)[T.Kofi O. Addo]                  0.0846      0.039      2.173      0.030       0.008       0.161
+C(operator)[T.Mulenga Stanley]               0.0878      0.052      1.701      0.089      -0.014       0.189
+C(operator)[T.Willis Samahanda]             -0.0123      0.035     -0.348      0.728      -0.082       0.057
+length_m                                     0.0570      0.018      3.228      0.001       0.022       0.092
+wet_int                                     -0.0392      0.061     -0.640      0.522      -0.159       0.081
+redrill_flag                                      0          0        nan        nan           0           0
+============================================================================================================
+
+The smallest eigenvalue is -1.24e-14. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-07-20T01:46:24.898036",
+  "input": "c:/Users/Data Mining Legend/Desktop/Github projects/drilling/Drilling by Hole_3167_1136_086_001_2026-01-29T07_58_47.818Z.xlsx",
+  "configuration": {
+    "random_state": 42,
+    "max_plausible_rate": 250,
+    "robust_z_threshold": 4.5,
+    "anomaly_contamination": 0.04,
+    "low_performance_quantile": 0.25,
+    "test_date_fraction": 0.25,
+    "cv_folds": 2,
+    "precision_floor": 0.35,
+    "confidence_level": 0.9,
+    "optuna_trials": 30,
+    "fast": true,
+    "skip_shap": false
+  },
+  "rows": 749,
+  "valid_model_rows": 663,
+  "regression_best": "Ridge",
+  "classification_best": "RandomForest",
+  "tuning": null,
+  "dependencies": {
+    "statsmodels": true,
+    "plotly": true,
+    "xgboost": true,
+    "lightgbm": true,
+    "catboost": true,
+    "optuna": true,
+    "shap": true
+  }
+}

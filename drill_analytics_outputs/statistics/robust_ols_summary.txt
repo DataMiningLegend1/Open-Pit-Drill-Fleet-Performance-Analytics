@@ -1,0 +1,40 @@
+                                     OLS Regression Results                                    
+===============================================================================================
+Dep. Variable:     np.log1p(penetration_rate_m_per_hr)   R-squared:                       0.164
+Model:                                             OLS   Adj. R-squared:                  0.148
+Method:                                  Least Squares   F-statistic:                     15.14
+Date:                                 Mon, 20 Jul 2026   Prob (F-statistic):           2.70e-28
+Time:                                         02:19:45   Log-Likelihood:                -72.744
+No. Observations:                                  663   AIC:                             171.5
+Df Residuals:                                      650   BIC:                             229.9
+Df Model:                                           12                                         
+Covariance Type:                                   HC3                                         
+============================================================================================================
+                                               coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    3.1466      0.218     14.447      0.000       2.720       3.573
+C(hole_type)[T.203mm Ore Production Sof]    -0.1513      0.070     -2.151      0.031      -0.289      -0.013
+C(hole_type)[T.Trim 3]                      -0.3832     32.000     -0.012      0.990     -63.102      62.336
+C(equipment)[T.SDR_03]                      -0.0061      0.040     -0.154      0.877      -0.084       0.071
+C(equipment)[T.SDR_05]                      -0.0205      0.035     -0.583      0.560      -0.089       0.048
+C(equipment)[T.SDR_06]                       0.1580      0.028      5.560      0.000       0.102       0.214
+C(equipment)[T.SDR_07]                       0.2528      0.052      4.874      0.000       0.151       0.355
+C(operator)[T.Fordson Kabangu]               0.1580      0.028      5.560      0.000       0.102       0.214
+C(operator)[T.Henry Kalituta]                0.0548      0.044      1.248      0.212      -0.031       0.141
+C(operator)[T.Kofi O. Addo]                  0.0413      0.045      0.914      0.360      -0.047       0.130
+C(operator)[T.Mulenga Stanley]               0.0480      0.066      0.725      0.469      -0.082       0.178
+C(operator)[T.Willis Samahanda]             -0.0179      0.043     -0.416      0.677      -0.102       0.066
+length_m                                     0.0460      0.018      2.617      0.009       0.012       0.081
+wet_int                                     -0.0047      0.071     -0.066      0.947      -0.144       0.134
+redrill_flag                                      0          0        nan        nan           0           0
+==============================================================================
+Omnibus:                       74.100   Durbin-Watson:                   1.979
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              208.607
+Skew:                          -0.555   Prob(JB):                     5.03e-46
+Kurtosis:                       5.514   Cond. No.                          inf
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The smallest eigenvalue is      0. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

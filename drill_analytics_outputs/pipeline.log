@@ -1,0 +1,34 @@
+2026-07-20 02:19:39,986 | INFO | Starting pipeline
+2026-07-20 02:19:39,990 | INFO | No --input provided; using discovered workbook: C:\Users\Data Mining Legend\Desktop\Github projects\drilling\Drilling by Hole_3167_1136_086_001_2026-01-29T07_58_47.818Z.xlsx
+2026-07-20 02:19:39,991 | INFO | Reading C:\Users\Data Mining Legend\Desktop\Github projects\drilling\Drilling by Hole_3167_1136_086_001_2026-01-29T07_58_47.818Z.xlsx
+2026-07-20 02:19:40,670 | INFO | Loaded 749 rows; 663 valid for modelling
+2026-07-20 02:19:50,736 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-20 02:19:50,738 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-20 02:19:53,422 | INFO | Regression: DummyMedian
+2026-07-20 02:19:53,698 | INFO | Regression: Ridge
+2026-07-20 02:19:53,955 | INFO | Regression: ElasticNet
+2026-07-20 02:19:54,255 | INFO | Regression: Huber
+2026-07-20 02:19:54,727 | INFO | Regression: KNN
+2026-07-20 02:19:54,968 | INFO | Regression: SVR_RBF
+2026-07-20 02:19:55,384 | INFO | Regression: RandomForest
+2026-07-20 02:20:01,290 | INFO | Regression: ExtraTrees
+2026-07-20 02:20:06,521 | INFO | Regression: AdaBoost
+2026-07-20 02:20:10,814 | INFO | Regression: GradientBoosting
+2026-07-20 02:20:18,825 | INFO | Regression: HistGradientBoosting
+2026-07-20 02:20:23,661 | INFO | Regression: XGBoost
+2026-07-20 02:20:25,513 | INFO | Regression: LightGBM
+2026-07-20 02:20:26,957 | INFO | Regression: CatBoost
+2026-07-20 02:20:40,803 | INFO | Classification: DummyPrior
+2026-07-20 02:20:41,164 | INFO | Classification: LogisticRegression
+2026-07-20 02:20:41,628 | INFO | Classification: KNN
+2026-07-20 02:20:41,997 | INFO | Classification: SVC_RBF
+2026-07-20 02:20:42,860 | INFO | Classification: RandomForest
+2026-07-20 02:20:54,482 | INFO | Classification: ExtraTrees
+2026-07-20 02:21:02,942 | INFO | Classification: AdaBoost
+2026-07-20 02:21:07,674 | INFO | Classification: GradientBoosting
+2026-07-20 02:21:11,064 | INFO | Classification: HistGradientBoosting
+2026-07-20 02:21:14,779 | INFO | Classification: XGBoost
+2026-07-20 02:21:16,162 | INFO | Classification: LightGBM
+2026-07-20 02:21:17,754 | INFO | Classification: CatBoost
+2026-07-20 02:22:18,667 | WARNING | SHAP skipped: list index out of range
+2026-07-20 02:22:18,697 | INFO | Complete: C:\Users\Data Mining Legend\Desktop\Github projects\drilling\drill_analytics_outputs

@@ -1,0 +1,16 @@
+metric,value,unit
+Total records,749.0,count
+Unique holes,749.0,count
+Unique equipment,5.0,count
+Unique operators,6.0,count
+Total drilled length,11172.5,m
+Median penetration rate,42.0,m/hr
+Mean penetration rate,43.9788838612368,m/hr
+P10 penetration rate,29.6,m/hr
+P90 penetration rate,59.960000000000015,m/hr
+Redrill rate,3.6048064085447264,%
+Wet-hole rate,3.204272363150868,%
+Missing penetration rates,50.0,count
+Domain outliers,10.0,count
+Statistical outliers,36.0,count
+Valid modelling rows,663.0,count

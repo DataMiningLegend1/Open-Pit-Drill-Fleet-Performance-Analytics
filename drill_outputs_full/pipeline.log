@@ -1,0 +1,32 @@
+2026-07-20 02:54:11,534 | INFO | Starting pipeline
+2026-07-20 02:54:11,535 | INFO | Reading C:\Users\Data Mining Legend\Desktop\Github projects\drilling\Drilling by Hole_3167_1136_086_001_2026-01-29T07_58_47.818Z.xlsx
+2026-07-20 02:54:12,126 | INFO | Loaded 749 rows; 663 valid for modelling
+2026-07-20 02:54:21,030 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-20 02:54:21,032 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-20 02:54:23,013 | INFO | Regression: DummyMedian
+2026-07-20 02:54:23,623 | INFO | Regression: Ridge
+2026-07-20 02:54:24,093 | INFO | Regression: ElasticNet
+2026-07-20 02:54:24,382 | INFO | Regression: Huber
+2026-07-20 02:54:24,885 | INFO | Regression: KNN
+2026-07-20 02:54:25,394 | INFO | Regression: SVR_RBF
+2026-07-20 02:54:26,019 | INFO | Regression: RandomForest
+2026-07-20 02:54:32,167 | INFO | Regression: ExtraTrees
+2026-07-20 02:54:37,302 | INFO | Regression: AdaBoost
+2026-07-20 02:54:41,759 | INFO | Regression: GradientBoosting
+2026-07-20 02:54:49,681 | INFO | Regression: HistGradientBoosting
+2026-07-20 02:54:53,430 | INFO | Regression: XGBoost
+2026-07-20 02:54:54,900 | INFO | Regression: LightGBM
+2026-07-20 02:54:56,451 | INFO | Regression: CatBoost
+2026-07-20 02:55:10,036 | INFO | Classification: DummyPrior
+2026-07-20 02:55:10,380 | INFO | Classification: LogisticRegression
+2026-07-20 02:55:10,826 | INFO | Classification: KNN
+2026-07-20 02:55:11,171 | INFO | Classification: SVC_RBF
+2026-07-20 02:55:12,003 | INFO | Classification: RandomForest
+2026-07-20 02:55:23,847 | INFO | Classification: ExtraTrees
+2026-07-20 02:55:32,089 | INFO | Classification: AdaBoost
+2026-07-20 02:55:36,624 | INFO | Classification: GradientBoosting
+2026-07-20 02:55:39,912 | INFO | Classification: HistGradientBoosting
+2026-07-20 02:55:44,903 | INFO | Classification: XGBoost
+2026-07-20 02:55:46,708 | INFO | Classification: LightGBM
+2026-07-20 02:55:48,857 | INFO | Classification: CatBoost
+2026-07-20 02:56:44,963 | INFO | Complete: C:\Users\Data Mining Legend\Desktop\Github projects\drilling\drill_outputs_full

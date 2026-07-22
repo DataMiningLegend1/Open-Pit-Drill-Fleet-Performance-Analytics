@@ -1,0 +1,10 @@
+test,statistic,p_value,effect_size,effect_name,n,significant_0_05,interpretation
+D'Agostino normality,171.0122714780721,7.330896358692492e-38,1.2364964397867273,skewness,663,True,Small p indicates non-normality.
+Spearman length vs rate,0.07093343805724522,0.06795530033228318,0.07093343805724522,rho,663,False,Association is not causation.
+Mann-Whitney wet vs dry,5351.5,0.10779485812577527,,,663,False,Compares distributions robustly.
+Kruskal-Wallis by equipment,102.83039544431232,2.4553905027653458e-21,0.1501981693682558,epsilon squared,663,True,At least one distribution differs if significant.
+Welch ANOVA by equipment,26.395566434668275,1.0332387240422842e-14,,,663,True,Robust to unequal variances.
+Kruskal-Wallis by operator,71.56574700960338,4.837790778662297e-14,0.1013177275640843,epsilon squared,663,True,At least one distribution differs if significant.
+Welch ANOVA by operator,14.512716140216982,5.0030535900400404e-11,,,663,True,Robust to unequal variances.
+Kruskal-Wallis by hole_type,0.8507242768026965,0.35634752411147286,0.0,epsilon squared,662,False,At least one distribution differs if significant.
+Welch ANOVA by hole_type,0.8092684896408234,0.37294374567349864,,,662,False,Robust to unequal variances.

@@ -1,0 +1,44 @@
+column,dtype,rows,missing_count,missing_pct,unique_count,examples
+comments,str,749,743,99.19893190921229,4,Drilled according to survey Mark out | Drilled according to survey | Redrilled | drilled according to survey
+redrill_of,str,749,722,96.39519359145527,24,K20 | K23 | AN11 | G49 | I14
+low_performance_flag,float64,749,86,11.481975967957277,2,1.0 | 0.0
+anomaly_votes,float64,749,50,6.675567423230974,5,0.0 | 1.0 | 3.0 | 2.0 | 4.0
+consensus_anomaly_flag,float64,749,50,6.675567423230974,2,0.0 | 1.0
+estimated_drilling_hours,float64,749,50,6.675567423230974,666,0.4176136363636363 | 0.1806930693069307 | 0.35555555555555557 | 0.4044321329639889 | 0.3989071038251366
+estimated_drilling_minutes,float64,749,50,6.675567423230974,666,25.056818181818176 | 10.841584158415841 | 21.333333333333336 | 24.265927977839333 | 23.934426229508198
+isolation_forest_anomaly,float64,749,50,6.675567423230974,2,0.0 | 1.0
+isolation_score,float64,749,50,6.675567423230974,691,0.4259295808271319 | 0.45464434585691904 | 0.43499138273143934 | 0.4170420347413138 | 0.48231890576106917
+lof_anomaly,float64,749,50,6.675567423230974,2,0.0 | 1.0
+lof_score,float64,749,50,6.675567423230974,699,1.068667383207486 | 1.2266243433133455 | 1.0172185475062032 | 1.0376895084197504 | 1.1572557170884268
+one_class_svm_anomaly,float64,749,50,6.675567423230974,2,0.0 | 1.0
+penetration_rate_m_per_hr,float64,749,50,6.675567423230974,380,35.2 | 80.8 | 40.5 | 36.1 | 36.6
+rate_robust_z_global,float64,749,50,6.675567423230974,380,-0.6491963843749996 | 3.1953951906249998 | -0.20234692499999987 | -0.5733162874999997 | -0.5311606781249998
+rate_robust_z_group,float64,749,50,6.675567423230974,558,-0.67448975 | 4.917643449999999 | -0.024676454268292465 | -0.5641187000000002 | -0.4398846195652175
+equipment,str,749,33,4.405874499332444,5,SDR_05 | SDR_02 | SDR_03 | SDR_07 | SDR_06
+operator,str,749,33,4.405874499332444,6,Kofi O. Addo | Henry Kalituta | Willis Samahanda | Chama Mambwe | Mulenga Stanley
+date,datetime64[ns],749,6,0.801068090787717,10,2025-11-11 | 2025-11-10 | 2025-11-12 | 2025-11-14 | 2025-11-13
+day_name,str,749,6,0.801068090787717,7,Tue | Mon | Wed | Fri | Thu
+day_of_month,float64,749,6,0.801068090787717,10,11.0 | 10.0 | 12.0 | 14.0 | 13.0
+day_of_week,float64,749,6,0.801068090787717,7,1.0 | 0.0 | 2.0 | 4.0 | 3.0
+length_m,float64,749,6,0.801068090787717,50,14.7 | 14.6 | 14.4 | 14.5 | 14.2
+week_of_year,Float64,749,6,0.801068090787717,3,46.0 | 47.0 | 50.0
+hole_number,Int64,749,2,0.26702269692923897,63,2 | 3 | 4 | 5 | 6
+hole_row_index,float64,749,2,0.26702269692923897,36,27.0 | 28.0 | 29.0 | 40.0 | 5.0
+hole_row_letters,string,749,2,0.26702269692923897,36,AA | AB | AC | AN | E
+best_available_diameter_mm,int64,749,0,0.0,1,203
+design_diameter_mm,int64,749,0,0.0,1,203
+diameter_deviation_mm,int64,749,0,0.0,1,0
+equipment_operator,string,749,0,0.0,19,SDR_05 | Kofi O. Addo | SDR_02 | Kofi O. Addo | SDR_03 | Henry Kalituta | SDR_03 | Willis Samahanda | SDR_02 | Willis Samahanda
+hole,str,749,0,0.0,749,AA2 | AA3 | AA4 | AA5 | AA6
+hole_type,str,749,0,0.0,5,203mm Ore Production Sof | 203mm Angle holes | Trim 2 | Trim 3 | 203mm Ore Production Med
+is_weekend,int64,749,0,0.0,2,0 | 1
+low_performance_benchmark,float64,749,0,0.0,4,35.8 | 34.150000000000006 | 35.7 | 29.9
+material,str,749,0,0.0,1,Ore - Soft
+modeling_valid_rate,bool,749,0,0.0,2,True | False
+rate_any_quality_flag,bool,749,0,0.0,2,False | True
+rate_domain_outlier_flag,bool,749,0,0.0,2,False | True
+rate_nonpositive_flag,bool,749,0,0.0,1,False
+rate_statistical_outlier_flag,bool,749,0,0.0,2,False | True
+record_id,int64,749,0,0.0,749,1 | 2 | 3 | 4 | 5
+redrill_flag,int64,749,0,0.0,2,0 | 1
+wet,boolean,749,0,0.0,2,False | True

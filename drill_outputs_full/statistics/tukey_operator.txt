@@ -1,0 +1,20 @@
+          Multiple Comparison of Means - Tukey HSD, FWER=0.05           
+========================================================================
+     group1          group2      meandiff p-adj   lower    upper  reject
+------------------------------------------------------------------------
+   Chama Mambwe  Fordson Kabangu   9.7348  0.102  -1.0224  20.492  False
+   Chama Mambwe   Henry Kalituta  -0.6234 0.9995   -6.126  4.8793  False
+   Chama Mambwe     Kofi O. Addo   1.1446 0.9855  -3.7653  6.0544  False
+   Chama Mambwe  Mulenga Stanley  10.9789    0.0   4.9569 17.0009   True
+   Chama Mambwe Willis Samahanda   -0.549 0.9995  -5.2741   4.176  False
+Fordson Kabangu   Henry Kalituta -10.3582  0.063 -21.0313   0.315  False
+Fordson Kabangu     Kofi O. Addo  -8.5903 0.1701 -18.9702  1.7897  False
+Fordson Kabangu  Mulenga Stanley   1.2441 0.9995  -9.7059 12.1941  False
+Fordson Kabangu Willis Samahanda -10.2838 0.0504 -20.5777    0.01  False
+ Henry Kalituta     Kofi O. Addo   1.7679 0.8932   -2.955  6.4908  False
+ Henry Kalituta  Mulenga Stanley  11.6023    0.0   5.7317 17.4729   True
+ Henry Kalituta Willis Samahanda   0.0743    1.0  -4.4562  4.6048  False
+   Kofi O. Addo  Mulenga Stanley   9.8344    0.0   4.5155 15.1533   True
+   Kofi O. Addo Willis Samahanda  -1.6936 0.7972   -5.482  2.0949  False
+Mulenga Stanley Willis Samahanda -11.5279    0.0 -16.6768 -6.3791   True
+------------------------------------------------------------------------

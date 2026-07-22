@@ -1,0 +1,6 @@
+hole_type,holes,total_length_m,mean_rate_m_per_hr,median_rate_m_per_hr,estimated_drilling_hours,redrill_rate_pct,wet_rate_pct,quality_flag_rate_pct,valid_model_rows
+203mm Ore Production Sof,698,10524.5,56.74854961832062,42.9,238.32200028132482,3.7249283667621778,3.4383954154727796,5.157593123209169,619
+203mm Angle holes,47,603.2,45.97674418604651,44.2,13.569060163750008,2.127659574468085,0.0,0.0,43
+203mm Ore Production Med,2,31.200000000000003,,,0.0,0.0,0.0,0.0,0
+Trim 3,1,13.6,29.9,29.9,0.4548494983277592,0.0,0.0,0.0,1
+Trim 2,1,0.0,,,0.0,0.0,0.0,0.0,0
